@@ -36,7 +36,7 @@ catch {
 $ErrorActionPreference="Stop"
 
 try {
-    $folderPath="/home/home/PC01/PS//ErrorHandling01"
+    $folderPath="/home/PC01/PS//ErrorHandling01"
     $folderContents=Get-ChildItem -Path $folderPath 
     $folderContents.foreach({
         Write-Output $_.name
